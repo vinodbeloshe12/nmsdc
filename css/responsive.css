@@ -1,0 +1,270 @@
+@media (min-width: 1700px) {
+    .container {
+        max-width: 1620px;
+    }
+    .main-nav nav ul {
+        max-width: 50vw;
+    }
+}
+
+@media(max-width: 768px) {
+    section.hero{
+        position: relative;
+    }
+    section.hero::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    z-index: 1;
+    opacity: 0.1;
+}
+
+    .glitch:after {
+        animation: glitch-medium 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
+    }
+    .glitch:before {
+        animation: glitch-small 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+    }
+    .sidedrawer-open div {
+        width: 17px;
+        margin-bottom: 3px;
+    }
+    .sidedrawer-open {
+        margin-top: 10px;
+        padding: 9px 7px;
+    }
+    .navbar-brand img {
+        max-width: 70px;
+    }
+    header .container-fluid {
+        max-width: none;
+    }
+    .v-c {
+        top: 0;
+        transform: none;
+    }
+    section.hero .maincol {
+        height: 50vh;
+    }
+    section.hero .left-col {
+    display: none;
+    }
+    section.hero .hero-text {
+        font-size: 40px;
+        line-height: 42px;
+        z-index: 2;
+    }
+    .numbered::before {
+        font-size: 55px;
+    }
+    .section-heading {
+        font-size: 40px;
+    }
+    .border-heading::before {
+        left: -10px;
+        height: 5px;
+        width: 60px;
+        bottom: -15px;
+    }
+    section.about {
+        padding: 30px 0 0px;
+    }
+    section.about .section-heading-container {
+        margin-bottom: 20px;
+        margin-top: 60px;
+    }
+    section.about p {
+        font-size: 14px;
+        line-height: 33px;
+    }
+
+    ul.list {
+        font-size: 14px;
+        line-height: 33px;
+    }
+
+    .p20{
+        font-size: 13px;
+        line-height: 23px;    
+    }
+    section.about img {
+        margin-top: 20px;
+    }
+    .fixed-circle {
+        max-width: 5vh;
+    }
+    section.what-i-do {
+        padding-top: 120px;
+    }
+    section.what-i-do.numbered::before {
+    top: 1.3%;
+    }
+    section.what-i-do p.top {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    section.what-i-do h2.top {
+        margin-bottom: 25px;
+    }
+    .skills-sub-section {
+        margin-top: 50px;
+    }
+    .section-sub-heading {
+        font-size: 30px;
+        padding: 5px 0;
+    }
+    section.what-i-do .section-sub-heading-container {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .skills-sub-section p {
+        font-size: 14px;
+        line-height: 33px;
+    }
+    .skills-sub-section .section-sub-heading::before {
+        height: 5px;
+    }
+    .skills-sub-section .triangle {
+        bottom: -32px;
+        right: 5%;
+        max-width: 5vh;
+    }
+    section.myprojects {
+        padding-top: 120px;
+    }
+    section.myprojects .cylinder {
+        right: 10%;
+        max-width: 6vh;
+    }
+    .project-item-bg img {
+        max-width: 90%;
+        top: 20px !important;
+    }
+    .project-item.p2 {
+        margin-top: 40px;
+    }
+    .project-caption-container {
+        height: auto;
+    }
+    .project-caption {
+        position: relative;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .project-caption h2 {
+        font-size: 22px;
+    }
+    .project-caption h2::after {
+        height: 2px;
+    }
+    section.hire {
+        padding-top: 120px;
+    }
+    .contact-reason li {
+        font-size: 36px;
+        display: block;
+        text-align: center;
+    }
+    section.hire .section-heading-container {
+        margin-bottom: 40px;
+    }
+    .contact-reason.owl-carousel::after {
+        border-width: 0 20px 15px 20px;
+    }
+    .custom-owl-controls {
+        margin-top: 10px;
+    }
+    section.hire .input-top-container {
+        margin-top: 30px;
+    }
+    section.hire input:not([type="submit"]),
+    section.hire textarea,
+    section.hire select {
+        font-size: 16px;
+        padding: 8px;
+        box-shadow: 0px 0px 15px 1px rgb( 204, 200, 200);
+    }
+    section.hire .input-container {
+        margin: 10px 0;
+    }
+    .submitbtn,
+    .submitbtn:hover {
+        font-size: 16px;
+        padding: 16px 0px;
+        margin-top: 6px;
+        display: block;
+    }
+    footer .kite {
+        max-width: 7vh;
+    }
+    .footer-left-inner {
+        height: auto;
+        padding: 0 15px;
+    }
+    .footer-left>ul>li span {
+        min-width: auto;
+        font-size: 16px;
+        display: block;
+    }
+    .footer-left>ul>li a.value {
+        font-size: 20px;
+        margin-top: 10px;
+        display: block;
+    }
+    .footer-left>ul>li {
+        margin-bottom: 35px;
+    }
+    .footerinfo {
+        position: absolute;
+        top: auto;
+        transform: none;
+        left: 20%;
+        bottom: 20%;
+    }
+    .footerinfo img {
+        max-width: 100px;
+    }
+    .footerinfo p {
+        font-size: 13px;
+        margin-top: 20px;
+        line-height: 21px;
+    }
+    .custom-owl-controls>div {
+        border-radius: 18px;
+        padding: 10px 15px;
+        font-size: 20px;
+    }
+    .footer-left .social-icons li a {
+        padding: 9px 0px;
+        font-size: 22px;
+        border-radius: 16px;
+        margin-top: 10px;
+        width: 40px;
+    }
+    .footer-left {
+        top: 0%;
+        margin-bottom: 20px;
+    }
+    .main-nav nav ul {
+        max-width: 100%;
+        padding: 0 15px
+    }
+    .main-nav nav ul li a {
+        font-size: 26px;
+    }
+    .main-nav nav ul li {
+        display: block;
+        margin: 10px 0px;
+    }
+}
+
+@media(max-width: 340px) {
+    section.hero .hero-text {
+        font-size: 33px;
+    }
+}
